@@ -1,0 +1,501 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    font-family: 'Space Mono';
+    font-style: normal;
+}
+
+.logo {
+    margin: auto;
+    margin-top: 7em;
+    margin-bottom: 5em;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 60rem;
+    min-width: 77.5rem;
+    background: #C5E4E7;
+    background-size: cover;
+}
+
+
+.content-calc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: center;
+    width: 68.75rem;
+    height: 35.1rem;
+    height: 35.625rem;
+    background: #FFFFFF;
+    box-shadow: 0px 32px 43px rgba(79, 166, 175, 0.200735);
+    border-radius: 25px;
+    margin-bottom: 7rem;
+}
+
+.btn-container {
+    margin-top: 2em;
+    display: grid;
+    row-gap: 5em;
+    width: 25rem;
+    height: 25.62rem;
+}
+
+
+.bill-display {
+    width: 440px;
+    height: 85px;
+}
+
+.num-people {
+    width: 27.5rem;
+    height: 5.313rem
+}
+
+
+.input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 27.5rem;
+    height: 3.44rem;
+    background: #e5eeee;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.input>span {
+
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+}
+
+.icons {
+    width: 20px;
+}
+
+.btn-tip-percent {
+    display: grid;
+    grid-template-columns: 8.25rem 8.25rem 8.25rem;
+    grid-template-rows: 58px 58px;
+    gap: 1.5em;
+}
+
+.btn-tip-percent>button {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+}
+
+.five-percent {
+    background: #00474B;
+    color: white;
+}
+
+.ten-percent {
+    background: #00474B;
+    color: white;
+}
+
+.fifteen-percent {
+    background: #26C2AE;
+}
+
+.twenty-five-percent {
+    background: #00474B;
+    color: white;
+}
+
+.fifty-percent {
+    background: #00474B;
+    color: white
+}
+
+.custom-percent {
+    background: #e5eeee;
+}
+
+.display-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    margin-top: 2em;
+    width: 29.4rem;
+    height: 30rem;
+    background: #00474B;
+    border-radius: 15px;
+}
+
+.btn-reset {
+    align-self: center;
+    width: 25.6rem;
+    height: 3.4rem;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+    background: #26C2AE;
+    margin-bottom: 2em;
+}
+
+.mine-amount {
+    margin-left: 2.5em;
+    margin-top: -7em;
+    margin-right: 1em;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+p {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #7F9D9F;
+}
+
+.output-amount {
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 73px;
+    margin-left: 2em;
+    margin-right: 0.5em;
+    color: #26C2AE;
+    margin-top: 1em;
+    text-align: right;
+}
+
+
+/* **********************************desktop************************** */
+@media (width< 1440px) {
+
+    .main {
+        max-width: 90rem;
+        max-height: 64rem;
+    }
+
+    .content-calc {
+        width: 57.5rem;
+        height: 30rem;
+        margin-bottom: 7rem;
+    }
+
+    .btn-container {
+        margin-top: 2em;
+        display: grid;
+        row-gap: 5em;
+        width: 23.7rem;
+        height: 24.25rem;
+        row-gap: 4em;
+    }
+
+    .bill-display {
+        width: 23.7rem;
+        height: 4.9rem;
+    }
+
+    .num-people {
+        width: 23.7rem;
+        height: 4.9rem;
+    }
+
+    .input {
+        width: 23.4rem;
+        height: 3rem;
+    }
+
+    .input>span {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .btn-tip-percent {
+        grid-template-columns: 117px 117px 117px;
+        grid-template-rows: 48px 48px;
+        gap: 1em;
+    }
+
+    .btn-tip-percent>button {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .five-percent {
+        background: #00474B;
+        color: white;
+    }
+
+    .ten-percent {
+        background: #00474B;
+        color: white;
+    }
+
+    .fifteen-percent {
+        background: #26C2AE;
+    }
+
+    .twenty-five-percent {
+        background: #00474B;
+        color: white;
+    }
+
+    .fifty-percent {
+        background: #00474B;
+        color: white
+    }
+
+    .custom-percent {
+        background: #e5eeee;
+    }
+
+    .display-container {
+        width: 26rem;
+        height: 26.1rem;
+
+    }
+
+    .btn-reset {
+        width: 22rem;
+        height: 3rem;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .mine-amount {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    p {
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 19px;
+    }
+
+    .output-amount {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 71px;
+        margin-left: 2em;
+    }
+
+    .icons {
+        width: 15px;
+    }
+}
+
+/* ********************************tablet******************************* */
+
+@media (width <=900px) {
+    .main {
+
+        max-width: 57rem;
+        min-height: 60rem;
+    }
+
+    .content-calc {
+        width: 64rem;
+        height: 42rem;
+        margin-bottom: 7em;
+    }
+
+    .btn-container {
+        margin-top: 2em;
+        display: grid;
+        row-gap: 5em;
+        width: 24rem;
+        min-height: 36rem;
+        row-gap: 4em;
+    }
+
+    .bill-display {
+        width: 379px;
+        height: 78px;
+    }
+
+    .num-people {
+        width: 24rem;
+        height: 5rem;
+    }
+
+
+    .input {
+        width: 26.25rem;
+        height: 5rem;
+    }
+
+    .input>span {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .icons {
+        width: 25px;
+    }
+
+    .btn-tip-percent {
+        grid-template-columns: 8.13rem 8.13rem 8.13rem;
+        grid-template-rows: 4.4rem 4.4rem;
+        gap: 1em;
+    }
+
+    .btn-tip-percent>button {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .display-container {
+        width: 28.1rem;
+        height: 37.5rem;
+    }
+
+    .btn-reset {
+        width: 24.4rem;
+        height: 4.4rem;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 35px;
+    }
+
+    .mine-amount {
+        margin-left: 2.5em;
+        margin-top: -6em;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    p {
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 19px;
+    }
+
+    .output-amount {
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 71px;
+        margin-left: 2em;
+        margin-top: 2em;
+    }
+
+    .icons {
+        width: 15px;
+    }
+
+}
+
+/* *******************************mobile***************************** */
+
+@media (width <=550px) {
+    .main {
+        min-height: 57.5rem;
+        min-width: 23.5rem;
+    }
+
+    .content-calc {
+        width: 23.5rem;
+        height: 61.6rem;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: -18rem;
+    }
+
+    .input {
+        width: 19.1rem;
+        height: 4.4rem;
+    }
+
+    .btn-container {
+        margin-left: 2em;
+        row-gap: 1em;
+    }
+
+    .btn-tip-percent {
+        display: grid;
+        grid-template-columns: 8.9rem 8.9rem;
+        grid-template-rows: 3.6rem 3.6rem 3.6rem;
+        gap: 1.5em;
+    }
+
+    .display-container {
+        width: 20.5rem;
+        height: 16.1rem;
+        margin-left: 1.5em;
+    }
+
+    .btn-reset {
+        width: 17.5rem;
+        height: 6rem;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 1em;
+        padding: 0.5em;
+    }
+
+    .mine-amount {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: -2em;
+    }
+
+    .output-amount {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 47px;
+        margin-top: 1em;
+    }
+
+    .p {
+        font-size: 16px;
+    }
+
+    .btn-tip-percent {
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+}
